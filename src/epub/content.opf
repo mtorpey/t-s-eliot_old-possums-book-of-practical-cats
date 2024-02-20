@@ -28,31 +28,25 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Old Possum’s Book of Practical Cats</dc:title>
 		<meta property="file-as" refines="#title">Old Possum’s Book of Practical Cats</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Cats--Poetry</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
-		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="term" refines="#subject-1">sh2008100226</meta>
+		<meta property="se:subject">Poetry</meta>
+		<dc:description id="description">A collection of whimsical light poems about feline psychology and sociology</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">Old Possum's Book of Practical Cats (1939) is a collection of whimsical light poems by <a href="https://standardebooks.org/ebooks/t-s-eliot">T. S. Eliot</a> about feline psychology and sociology, published by Faber and Faber. It serves as the basis for Andrew Lloyd Webber's 1981 musical Cats. Eliot wrote the poems in the 1930s and included them, under his assumed name "Old Possum", in letters to his godchildren. Eliot tried to persuade the poet Ralph Hodgson to illustrate the poems but failed.[2] They were collected and published in 1939, with cover illustrations by the author, and quickly re-published in 1940, illustrated in full by Nicolas Bentley. They have also been published in versions illustrated by Edward Gorey (1982), Axel Scheffler (2009) and Rebecca Ashdown (2014). From Wikipedia.</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>http://gutenberg.ca/ebooks/eliotts-practicalcats/eliotts-practicalcats-01-h.html</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Old_Possum%27s_Book_of_Practical_Cats</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/t-s-eliot_old-possums-book-of-practical-cats</meta>
 		<dc:creator id="author">T. S. Eliot</dc:creator>
 		<meta property="file-as" refines="#author">Eliot, T. S.</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Thomas Stearns Eliot</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/T._S._Eliot</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79006870</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<!--
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
@@ -62,9 +56,10 @@
 		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
 		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		-->
+		<dc:contributor id="producer-1">Michael Young</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Young, Michael</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://myoung.uk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
