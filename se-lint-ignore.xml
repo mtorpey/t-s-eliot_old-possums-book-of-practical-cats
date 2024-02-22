@@ -10,4 +10,16 @@
 			<reason>The archaic “ad-dressing” should be preserved, and the “ad” part is not an abbreviation.</reason>
 		</ignore>
 	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>m-035</code>
+			<reason>This book is not actually distributed by Standard Ebooks.</reason>
+		</ignore>
+	</file>
+	<file path="uncopyright.xhtml">
+		<ignore>
+			<code>f-006</code>
+			<reason>This book is not actually distributed by Standard Ebooks.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
