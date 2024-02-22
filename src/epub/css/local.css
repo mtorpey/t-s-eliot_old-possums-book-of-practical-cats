@@ -54,10 +54,10 @@ p span.i6{
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:poem"] hgroup p {
+[epub|type~="z3998:poem"] hgroup p{
 	text-align: center;
 }
 
-p.emphatic {
+p.emphatic{
 	font-style: italic;
 }
