@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="old-possums-book-of-practical-cats.xhtml">
+		<ignore>
+			<code>y-007</code>
+			<reason>The author chose single quotes and I don’t wish to change that.</reason>
+		</ignore>
+		<ignore>
+			<code>s-023</code>
+			<reason>The archaic “ad-dressing” should be preserved, and the “ad” part is not an abbreviation.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
